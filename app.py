@@ -37,5 +37,5 @@ def github_webhook():
     return jsonify({'status': 'success'}), 200
 
 def create_asana_task(name, description, assignee=None, due_date=None):
-    url = 'https://app.asan
+    url = 'https://app.asana.com/api/1.0/tasks'
 
